@@ -1,15 +1,43 @@
 <html>
  <head>
   <title>contact us</title>
+  <style>
+    .form1{
+      background-color: antiquewhite;
+    }
+    .heading1{
+      color: brown;
+    }
+    table{
+      width: 50%;
+      height:50%;
+      align-content: center;
+    }
+  </style>
  </head>
  <body>
-  <form>
-   <table>
+  <center><form class="form1">
+   <center> <h2 class="heading1">Contact Us</h2></center>
+   <center><table>
      <tr>
-       <td>First Name : <td>
-       <td><input type="text" name="fname" placeholder="Enter Your First Name"</td>
+    <center><td>First Name : <td> </center>
+    <center><td><input type="text" name="fname" placeholder="Enter Your First Name"  required></td> </center>
      </tr>
-    </table>
-   </form>
+    <tr>
+    <center><td>Last Name : <td> </center>
+    <center> <td><input type="text" name="lname" placeholder="Enter Your Last Name" 
+       " required></td></center>
+    </tr>
+    <tr>
+    <center><td>E-mail : <td></center>
+    <center> <td><input type="email" name="email" placeholder="Enter Your Email Address"  required></td></center>
+    </tr>
+    <tr>
+    <center> <td>Comment : <td></center>
+      <center> <td><textarea cols="50" rows="10" placeholder="Enter Your Comment" ></textarea></td></center>
+    </tr>
+    </table></center>
+    <center><input type="submit" name="submit" value="Submit Details" ></center>
+   </form></center>
  </body>
 </html>
